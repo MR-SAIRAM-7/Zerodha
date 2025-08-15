@@ -17,13 +17,15 @@ export default function Stats() {
                     <h2 className="fs-4">Do better with money</h2>
                     <p className="text-muted">TWith initiatives like Nudge and Kill Switch, we don't just facilitate transactions, but actively help you do better with your money.</p>
                 </div>
+
                 <div className="col-6 p-5">
                     <img style={{ width: "95%" }} src="media/images/ecosystem.png" alt="" className="img-fluid" />
                     <div className="text-center" >
-                        <a href="#" className="mx-5" style={{ textDecoration: "none" }}>Explore our products <i class="fa-solid fa-arrow-right"></i></a>
-                        <a href="#" style={{ textDecoration: "none" }}>Try Kite demo <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#" className="mx-5" style={{ textDecoration: "none" }}>Explore our products <i className="fa-solid fa-arrow-right"></i></a>
+                        <a href="#" style={{ textDecoration: "none" }}>Try Kite demo <i className="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
+                
             </div>
         </div>
     )
