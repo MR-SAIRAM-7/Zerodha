@@ -63,7 +63,9 @@ export default function ZerodhaUniverse() {
             <p className="text-muted small px-5 mt-2">{partner.description}</p>
           </div>
         ))}
+        <button className="p-2 btn btn-primary fs-5 mb-5" style={{ width: "20%", margin: "0 auto", }}>Sign Up for Free</button>
       </div>
+
     </div>
   );
 }
