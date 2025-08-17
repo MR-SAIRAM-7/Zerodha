@@ -21,7 +21,7 @@ export default function Team() {
                     </p>
                     <p>
                         With a passion for full-stack development, he is designing and coding the
-                        entire platform from scratch — from the landing pages and signup flows to
+                        entire platform from scratch the landing pages and signup flows to
                         backend APIs, authentication, and trading features.
                     </p>
                     <p>
