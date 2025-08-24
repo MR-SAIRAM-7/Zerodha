@@ -4,9 +4,14 @@ const app = express();
 const mongoose = require("mongoose");
 const port = process.env.port || 3002;
 const uri = process.env.MONGO_URL;
+const bodyParser = require("body-parser");
+const cors = require("cors");
 const { HoldingsModel } = require("./models/HoldingsModel.js");
 const { PositionsModel } = require("./models/PositionsModel.js");
 
+
+app.use(cors());
+app.use(bodyParser.json());
 
 try {
     main().catch(err => console.log(err));
@@ -188,6 +193,15 @@ try {
 //     res.send("<h1>Done</h1>")
 // })
 
+app.get("/allHoldings", async (req, res) => {
+    let allHoldings = await HoldingsModel.find({});
+    res.json(allHoldings);
+})
+
+app.get("/allPositions", async (req, res) => {
+    let allPositions = await PositionsModel.find({});
+    res.json(allPositions);
+})
 
 app.listen(port, () => {
     console.log("App is started")
