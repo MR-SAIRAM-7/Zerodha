@@ -1,4 +1,4 @@
-# 📈 Zerodha - Stock Trading Platform
+# Zerodha - Stock Trading Platform
 
 This project includes:
 
@@ -10,7 +10,7 @@ Deployed on **Render**
 
 ---
 
-## 🚀 Project Structure
+##  Project Structure
 
 ```
 zerodha/
@@ -92,7 +92,7 @@ zerodha/
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/Zerodha.git
@@ -101,7 +101,7 @@ cd Zerodha
 
 ---
 
-### 2️⃣ Backend Setup (`/backend`)
+###  Backend Setup (`/backend`)
 
 ```bash
 cd backend
@@ -123,7 +123,7 @@ npm start
 
 ---
 
-### 3️⃣ Dashboard Setup (`/dashboard`)
+###  Dashboard Setup (`/dashboard`)
 
 ```bash
 cd dashboard
@@ -150,7 +150,7 @@ npm run build
 
 ---
 
-### 4️⃣ Frontend Setup (`/frontend`)
+###  Frontend Setup (`/frontend`)
 
 ```bash
 cd frontend
