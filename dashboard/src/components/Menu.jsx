@@ -89,7 +89,7 @@ const Menu = () => {
             </Link>
           </li>
           <li  style={{ textDecoration: "none" }}>
-            <a  style={{ textDecoration: "none" }} className="nav-link active" href="http://localhost:5173/">Landing Page</a>
+            <a  style={{ textDecoration: "none" }} className="nav-link active" href="https://zerodha-frontend3.onrender.com">Home Page</a>
           </li>
 
         </ul>
