@@ -1,5 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {useEffect} from "react";
 import "./index.css";
 
 import HomePage from "./landing_page/home/HomePage";
@@ -29,3 +30,9 @@ root.render(
     <Footer />
   </BrowserRouter>
 );
+
+useEffect(() => {
+    axios.get("https://zerodha-backend-op72.onrender.com/").then((res) => {
+      console.log("Backend called");
+    });
+  }, []);
