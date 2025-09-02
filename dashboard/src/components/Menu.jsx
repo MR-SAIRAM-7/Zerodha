@@ -1,4 +1,4 @@
-import  { useState } from "react";
+import { useState } from "react";
 
 import { Link } from "react-router-dom";
 
@@ -79,7 +79,7 @@ const Menu = () => {
           </li>
           <li>
             <Link
-              style={{ textDecoration: "none" }}
+             style={{ textDecoration: "none" }}
               to="/apps"
               onClick={() => handleMenuClick(6)}
             >
@@ -88,6 +88,10 @@ const Menu = () => {
               </p>
             </Link>
           </li>
+          <li  style={{ textDecoration: "none" }}>
+            <a  style={{ textDecoration: "none" }} className="nav-link active" href="http://localhost:5173/">Landing Page</a>
+          </li>
+
         </ul>
         <hr />
         <div className="profile" onClick={handleProfileClick}>

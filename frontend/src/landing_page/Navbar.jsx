@@ -40,6 +40,7 @@ export default function Navbar() {
                         <li className="nav-item mx-3">
                             <Link className="nav-link active" to={'/support'}>Support</Link>
                         </li>
+                       <a  className="nav-link active" href="http://localhost:5174/">Dashboard</a>
                     </ul>
                 </div>
             </div>
